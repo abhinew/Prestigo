@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper {
+	width: 100%;
+	margin-top: 30px;
+	background-color: #ecf0f1;
+}
+
+.blog-content {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	background: url(images/logo.png) no-repeat;
+	position: absolute;
+	top: 25px;
+	left: 25px;	
+}
+
+
+header {
+	background-color: #2d3e50;
+	height: 80px;
+	position: relative;
+	
+}
+
+.logo > h2 {
+	display: inline;
+	padding-left: 40px;
+	color:  white;
+	font-family: "Gill Sans";
+	font-size: 24px;
+	/* border: 2px solid red; */
+}
+
+.navigation {
+	text-transform: capitalize;
+	list-style-type: none;
+	display: inline;
+
+	padding-left: 380px;
+}
+
+.search {
+	background: url(images/search.png) no-repeat;
+	background-position: 25px 33px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 78px;
+	width: 70px;
+	background-color: #223242;
+}
+
+
+.navigation > li > a {
+	text-decoration: none;
+	font-family: "Gill Sans"; 
+	color: #FBFBFB;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.navigation > li > a#home.selected {
+	background-color:#F7000A;
+
+	padding-top: 43px;
+	padding-bottom: 30px;
+}
+
+.navigation > li {
+	display: inline;
+	
+}
+
+.color-code {
+	text-align: center;
+	display:  inline;
+	text-align: left;
+	color: #616264;
+	/* height: 169px; */
+	/* background-color:  red; */
+	padding-left: 4px;
+	margin-left: 100px;
+	border-left: 10px solid red;
+	font-size: 25px;
+}
+
+.blog-search {
+	background: url(images/red-search.png) no-repeat;
+	background-position: 20px 20px;
+	padding: 20px 0px 20px 50px;
+	color: #989898;
+}
+
+.blog-search-toolbar {
+		float: right;
+	
+		height: 50px;
+	width: 370px;
+	background-color: #ffffff;
+}
+	
+
+
+.first-row {
+	padding-top: 55px;
+}
+
+.first-row > h1 {
+	text-transform: uppercase;
+	font-family: "Arial";
+	font-size: 50px;
+	font-weight: bold;
+	vertical-align: middle;
+	color: #2c3b50;
+	display: inline;
+
+}
+
+.blog-posts {
+	width: 770px;
+	margin-top: 70px;
+}
+
+.plain-blog-post {
+	height: 270px;
+	background-color: #ffffff;
+}
+
+.post1 {
+	padding: 30px 30px;
+}
+
+.read-more {
+	float: left;
+}
+.comments-section {
+	float: right;
+}
+
+
+.comment-by {
+	float: left;
+}
+.comments-count {
+	float: right;
+
+}
+
+.post-timestamp {
+	color: #c9c9c9;
+	font-family: "Arial";
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+.post1 > h2 {
+	color: #283d50;
+	font-family: "Arial";
+	font-size: 30px;
+}
+
+.post1 > p {
+	color: #656565;
+	font-family: "Arial";
+	font-size:  13px;
+}
